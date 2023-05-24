@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     var destinos = [
       {nome: "eniac", latitude: -23.4728014, longitude: -46.5356785},
-      {nome: "palyra tagliari", latitude: -23.4313118, longitude: -46.5612862 },
+      {nome: "hipermercado carrefour", latitude: -23.4638372, longitude: -46.6008042},
       {nome: "escola jose scaramelli", latitude: -23.4724056, longitude: -46.544724},
       {nome: "colegio guilherme de almeida", latitude: -23.4873471, longitude: -46.6271665},
       {nome: "evanira vieira romao", latitude: -23.4810143, longitude: -46.5491934 },
