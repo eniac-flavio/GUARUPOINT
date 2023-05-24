@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospitais</title>
+    <link rel="stylesheet" href="../CSS/pagsaparte.css">
+    <script src="../JS/hopitais.js" defer></script>
+    <script>
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("nav")
+            header.classList.toggle("navsticky", window.scrollY > 0)
+        })
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html" class="claro"><img src="../IMG/GuaruPoint1.png" alt="GuaruPoint"></a>
+                <a href="index.html" class="escuro"><img src="../IMG/GuaruPoint (4).png" alt="GuaruPoint"></a>
+            </div>
+            <div class="menu">
+                <a href="popular.html">
+                    <div class="popular">POPULAR</div>
+                </a>
+                <a href="avaliacoes.html">
+                    <div class="avaliacoes">AVALIAÇÕES</div>
+                </a>
+                <a href="bairro.html">
+                    <div class="bairro">BAIRROS</div>
+                </a>
+            </div>
+            <div></div>
+        </nav>
+        <div class="searchbox">
+            <div class="searchbar"> 
+                <label for="search"></label>
+                <input type="search" name="" id="search">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <!--  F  A  M  I  L  I  A  -->
+            <section class="familia">
+                <div class="section wrapper">
+                    <div class="grupo contente">
+                        <div class="imagem"><img src="../IMG/hmu1.jpg" alt=""></div>
+                        <div class="descricao">
+                            <p>Hospital Municipal de Emergência</p>
+                        </div>
+                    </div>
+                    <div class="bottom-sheet">
+                        <div class="sheet-overlay"></div>
+                        <div class="content">
+                            <div class="header">
+                                <div class="drag"><span></span></div>
+                            </div>
+                            <div class="body">
+                                <div class="bodycontent">
+                                    <div class="body1">
+                                        <a href="">
+                                            <h3>Hospital Municipal de Emergência</h3>
+                                        </a>
+                                        <div class="bodybanner"><img src="../IMG/hmu1.jpg" alt=""></div>
+                                        <div class="bannerinfo hmu">
+                                            <p>Aberto a todo tempo</p>
+                                            <p class="p div-hmu"></p>
+                                        </div>
+                                        <div class="coment">
+                                            <div class="comentbox">
+                                                <h3>avaliacão mais relevante.</h3>
+                                                <div class="comentcontent">
+                                                    <a href="https://goo.gl/maps/yHpr2dqHYcJheHuK9" target="_blank">(ver publicação original)</a>
+                                                    <p>Meu pai foi internado dia 29/10, ficou 11 dias internado, fez vários exames e infelizmente foi constatado cancer em estado avançado. Porém, quero deixar registrado os meus sinceros agradecimentos a toda equipe médica e de enfermagem pelo tratamento, atenção e total dedicação, na qual eu presenciei o trabalho duro e dedicado que a equipe tem com os pacientes, mesmo faltando recursos, leitos, e até cadeiras para auxiliar no banho dos pacientes, a equipe de enfermagem sempre arruma um jeito de amenizar o sofrimento dos doentes e dos acompanhantes. Infelizmente meu pai faleceu no dia 10/12, mas sinto que foi feito o possível para amenizar seu sofrimento. Farei o possível para cobrar das autoridades mais recursos para esse hospital, e poder atender a população de Guarulhos, que sempre foi tão carente na saúde, um município com um dos maiores PIB do estado, mais rico da nação, ter a saúde abandonada. Obrigada a todos que trabalham nesse hospital e a todos os profissionais de saúde, que amam a profissão e merecem todo nosso respeito.</p>
+                                                </div>
+                                            </div>
+                                            <div class="comentrate">
+                                                <div class="nota">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <h3>2,6</h3>
+                                                </div>
+                                                <p>Um centro médico para emergências. Contém acessibilidade e estacionamento.</p>
+                                            </div>
+                                        </div>
+                                        <div class="galeria">
+                                            <h3>Imagens</h3>
+                                            <div class="galeriacontent">
+                                                <img src="../IMG/hmu2.jpg" alt="">
+                                                <img src="../IMG/hmu3.jpg" alt="">
+                                                <img src="../IMG/hmu4.jpg" alt="">
+                                                <img src="../IMG/hmu5.jpg" alt="">
+                                                <img src="../IMG/hmu6.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body2">
+                                        <div class="hist">
+                                            <h3>História</h3>
+                                            <p>O Hospital Municipal de Urgências (HMU) é uma instituição de saúde localizada em Guarulhos, São Paulo. Sua história remonta ao ano de 1993, quando foi inaugurado com o objetivo de oferecer atendimento médico de urgência e emergência à população local.</p>
+                                            <p>O Hospital Municipal de Urgências (HMU) é uma instituição de saúde localizada em Guarulhos, São Paulo. Sua história remonta ao ano de 1993, quando foi inaugurado com o objetivo de oferecer atendimento médico de urgência e emergência à população local.
+                                            </p>
+                                        </div>
+                                        <div class="traj">
+                                            <h3>Trajeto</h3>
+                                            <div class="iframe"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14640.884487207897!2d-46.535250912841846!3d-23.452487100000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce8ab4361ccd43%3A0x356959a9cf4210d4!2sHMU%20-%20Hospital%20Municipal%20de%20Urg%C3%AAncias!5e0!3m2!1spt-BR!2sbr!4v1684801045668!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grupo contente">
+                        <div class="imagem"><img src="../IMG/hospg1.webp" alt=""></div>
+                        <div class="descricao">
+                            <p>Hopital Geral de Guarulhos</p>
+                        </div>
+                    </div>
+                    <div class="bottom-sheet">
+                        <div class="sheet-overlay"></div>
+                        <div class="content">
+                            <div class="header">
+                                <div class="drag"><span></span></div>
+                            </div>
+                            <div class="body">
+                                <div class="bodycontent">
+                                    <div class="body1">
+                                        <a href="">
+                                            <h3>Hopital Geral de Guarulhos</h3>
+                                        </a>
+                                        <div class="bodybanner"><img src="../IMG/hospg1.webp" alt=""></div>
+                                        <div class="bannerinfo hospital_geral">
+                                            <p>Aberto a todo tempo</p>
+                                            <p class="p div-hospital_geral"></p>
+                                        </div>
+                                        <div class="coment">
+                                            <div class="comentbox">
+                                                <h3>avaliacão mais relevante.</h3>
+                                                <div class="comentcontent">
+                                                    <a href="https://goo.gl/maps/dSpwioBqyf2Vdbju8" target="_blank">(ver publicação original)</a>
+                                                    <p>Lamentável minha experiência hoje nesse hospital! Sou gestante de 39 semanas dei entrada as 11h e fui sair às 16:45 da tarde.
+                                                        Fui atrás de “ajuda” em uma consulta médica, fui pessimamente atendida em dois turnos.
+                                                    (ver mais na publicação original)</p>
+                                                </div>
+                                            </div>
+                                            <div class="comentrate">
+                                                <div class="nota">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <h3>3,2</h3>
+                                                </div>
+                                                <p>Um hospital geral.</p>
+                                            </div>
+                                        </div>
+                                        <div class="galeria">
+                                            <h3>Imagens</h3>
+                                            <div class="galeriacontent">
+                                                <img src="../IMG/hopsg2.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body2">
+                                        <div class="hist">
+                                            <h3>História</h3>
+                                            <p>Sem dados</p>
+                                        </div>
+                                        <div class="traj">
+                                            <h3>Trajeto</h3>
+                                            <div class="iframe"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29286.73722394587!2d-46.522777425692944!3d-23.43006850672715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce8a964561ff55%3A0x81a88d588598b48f!2sHospital%20Geral%20de%20Guarulhos!5e0!3m2!1spt-BR!2sbr!4v1684891529993!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grupo contente">
+                        <div class="imagem"><img src="../IMG/hospbc.jpg" alt=""></div>
+                        <div class="descricao">
+                            <p>Hospital Bom Clima</p>
+                        </div>
+                    </div>
+                    <div class="bottom-sheet">
+                        <div class="sheet-overlay"></div>
+                        <div class="content">
+                            <div class="header">
+                                <div class="drag"><span></span></div>
+                            </div>
+                            <div class="body">
+                                <div class="bodycontent">
+                                    <div class="body1">
+                                        <a href="">
+                                            <h3>Hospital Bom Clima</h3>
+                                        </a>
+                                        <div class="bodybanner"><img src="../IMG/hospbc.jpg" alt=""></div>
+                                        <div class="bannerinfo hospital_bom_clima">
+                                            <p>Aberto a todo tempo</p>
+                                            <p class="p div-hospital_bom_clima"></p>
+                                        </div>
+                                        <div class="coment">
+                                            <div class="comentbox">
+                                                <h3>avaliacão mais relevante.</h3>
+                                                <div class="comentcontent">
+                                                    <a href="https://goo.gl/maps/v3myQZrySDswhZcm7" target="_blank">(ver publicação original)</a>
+                                                    <p>Avaliar hospital é quase o mesmo que avaliar um cemitério, não tem muito sentido, mas ainda assim vale ser avaliado. O Pronto socorro mesmo que cheio apresentou um atendimento rápido, um pequeno contra tempo com a falta de enfermeiras mas faz parte da área da saúde.</p>
+                                                </div>
+                                            </div>
+                                            <div class="comentrate">
+                                                <div class="nota">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <h3>4,6</h3>
+                                                </div>
+                                                <p>Hospital do bairro Bom Clima</p>
+                                            </div>
+                                        </div>
+                                        <div class="galeria">
+                                            <h3>Imagens</h3>
+                                            <div class="galeriacontent">
+                                                <p>Sem imagens.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body2">
+                                        <div class="hist">
+                                            <h3>História</h3>
+                                            <p>Sem dados.
+                                            </p>
+                                        </div>
+                                        <div class="traj">
+                                            <h3>Trajeto</h3>
+                                            <div class="iframe"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3661.565391911934!2d-46.53770302471935!3d-23.403934778908393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef4a1673af331%3A0x2cb183ddfcc9de60!2sParque%20Estadual%20Cantareira%20-%20N%C3%BAcleo%20Cabu%C3%A7u!5e0!3m2!1spt-BR!2sbr!4v1684795179643!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grupo contente">
+                        <div class="imagem"><img src="../IMG/umed1.jpeg" alt=""></div>
+                        <div class="descricao">
+                            <p>Uni Meds</p>
+                        </div>
+                    </div>
+                    <div class="bottom-sheet">
+                        <div class="sheet-overlay"></div>
+                        <div class="content">
+                            <div class="header">
+                                <div class="drag"><span></span></div>
+                            </div>
+                            <div class="body">
+                                <div class="bodycontent">
+                                    <div class="body1">
+                                        <a href="">
+                                            <h3>Uni Meds</h3>
+                                        </a>
+                                        <div class="bodybanner"><img src="../IMG/umed1.jpeg" alt=""></div>
+                                        <div class="bannerinfo uni_med">
+                                            <p>Aberto a todo tempo</p>
+                                            <p class="p div-uni_med"></p>
+                                        </div>
+                                        <div class="coment">
+                                            <div class="comentbox">
+                                                <h3>avaliacão mais relevante.</h3>
+                                                <div class="comentcontent">
+                                                    <a href="https://goo.gl/maps/Y2ZRooRLscEyh5wm6" target="_blank">(ver publicação original)</a>
+                                                    <p>Infelizmente avaliando com uma estrela é grande generosidade da minha parte.
+                                                        Tempo de espera é de 6 horas hoje, 23/06 as 19:17.
+                                                        Não tenho o que reclamar da recepção e triagem, fizeram bem o trabalho deles.
+                                                        Minha dúvida é em relação ao corpo médico do plantão. A empresa em si, contratou prossifionais ou realmente são profissionais sem o dom para trabalhar em plantão? Digo pois cheguei às 18h e há mais de uma hora e meia não vejo chamarem um paciente se quer.  Talvez não tenha apenas uma médica, a qual ao abrir a porta do consultório 3 por engano me deparei com a dra com seu celular em mãos. Enfim... lamentável.</p>
+                                                </div>
+                                            </div>
+                                            <div class="comentrate">
+                                                <div class="nota">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <h3>4,6</h3>
+                                                </div>
+                                                <p>Saúde por convênio UniMed.</p>
+                                            </div>
+                                        </div>
+                                        <div class="galeria">
+                                            <h3>Imagens</h3>
+                                            <div class="galeriacontent">
+                                                <img src="../IMG/umed2.jpg" alt="">
+                                                <img src="../IMG/umed3.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body2">
+                                        <div class="hist">
+                                            <h3>História</h3>
+                                            <p>Sem dados.
+                                            </p>
+                                        </div>
+                                        <div class="traj">
+                                            <h3>Trajeto</h3>
+                                            <div class="iframe"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29280.780046202985!2d-46.552533537252046!3d-23.4569471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef530ac76e215%3A0x34dbc9ac955981b3!2sComplexo%20Hospitalar%20Unimed%20Guarulhos%20%E2%80%93%20entrada%20pronto%20atendimento%20adulto!5e0!3m2!1spt-BR!2sbr!4v1684892254156!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                                            <div class="iframe"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7319.9007994297535!2d-46.53045545756352!3d-23.462253565471983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef5a66723a8f3%3A0x8dc1846d93dc4091!2sUnimed%20Guarulhos%20-%20Atendimento%20Presencial!5e0!3m2!1spt-BR!2sbr!4v1684892382412!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                                            <div class="iframe"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7320.06597317391!2d-46.5447837064209!3d-23.459274599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef59855e3ddf9%3A0x65361d971fe44e54!2sCentro%20Integrado%20Unimed%20Guarulhos%20-%20CIUG!5e0!3m2!1spt-BR!2sbr!4v1684892436434!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                                            <div class="iframe"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7319.803296331748!2d-46.535898306420926!3d-23.464011899999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef58ebfb218b3%3A0x29179bd5f56e03b!2sUnimed%20Guarulhos%20-%20Sede%20Administrativa!5e0!3m2!1spt-BR!2sbr!4v1684892452462!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                                            <div class="iframe"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7320.062696467535!2d-46.54481660642094!3d-23.4593337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef540c62b4ab3%3A0xd3d17fd754e9d5e2!2sEspa%C3%A7o%20Cuidar%20Unimed%20Guarulhos!5e0!3m2!1spt-BR!2sbr!4v1684892476686!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grupo contente">
+                        <div class="imagem"><img src="../IMG/hopsm1.jpg" alt=""></div>
+                        <div class="descricao">
+                            <p>Hospital e Maternidade</p>
+                        </div>
+                    </div>
+                    <div class="bottom-sheet">
+                        <div class="sheet-overlay"></div>
+                        <div class="content">
+                            <div class="header">
+                                <div class="drag"><span></span></div>
+                            </div>
+                            <div class="body">
+                                <div class="bodycontent">
+                                    <div class="body1">
+                                        <a href="">
+                                            <h3>Hospital e Maternidade</h3>
+                                        </a>
+                                        <div class="bodybanner"><img src="../IMG/hopsm1.jpg" alt=""></div>
+                                        <div class="bannerinfo hospital_maternidade">
+                                            <p>Aberto a toda hora</p>
+                                            <p class="p div-hospital_maternidade"></p>
+                                        </div>
+                                        <div class="coment">
+                                            <div class="comentbox">
+                                                <h3>avaliacão mais relevante.</h3>
+                                                <div class="comentcontent">
+                                                    <a href="https://goo.gl/maps/VyeLzJdgsBpzfDub9" target="_blank">(ver publicação original)</a>
+                                                    <p>Atendimento desde o início muito demorado, isso demonstra descaso. Vários guichês de atendimento e um profissional só para receber.
+                                                        Até fazer a triagem levou mais de meia hora!
+                                                        O atendimento médico foi com simpatia e cuidado, mas achei o médico pouco preparado, não conseguiu entender a dificuldade de avaliar uma criança, sendo ele pediatra.
+                                                        Sinceramente, apesar de toda educação na unidade o atendimento não transmite muita segurança.</p>
+                                                </div>
+                                            </div>
+                                            <div class="comentrate">
+                                                <div class="nota">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <h3>2,2</h3>
+                                                </div>
+                                                <p>Centro público esportivo Educacional e de atividades comunitárias.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="galeria">
+                                            <h3>Imagens</h3>
+                                            <div class="galeriacontent">
+                                                <img src="../IMG/hopsm2.jpeg" alt="">
+                                                <img src="../IMG/hopsm3.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body2">
+                                        <div class="hist">
+                                            <h3>História</h3>
+                                            <p>Sem dados.
+                                            </p>
+                                        </div>
+                                        <div class="traj">
+                                            <h3>Trajeto</h3>
+                                            <div class="iframe"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7320.062705839688!2d-46.54481660727597!3d-23.459333530960272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef542d5bbc961%3A0x66cbc8cc55b801b!2sHospital%20e%20Maternidade%20Guarulhos!5e0!3m2!1spt-BR!2sbr!4v1684892699686!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+</header> 
+</body>
+</html>
