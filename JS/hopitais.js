@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function() {
         {nome: "hospital geral", latitude: -23.4300685, longitude: -46.5227774 },
         {nome: "hmu", latitude: -23.4524871, longitude: -46.5352509},
         {nome: "hospital bom clima", latitude: -23.4569471, longitude: -46.5525335},
-        {nome: "unimed", latitude: -23.4569471, longitude: -46.5525335},
+        {nome: "uni med", latitude: -23.4569471, longitude: -46.5525335},
         {nome: "hospital maternidade", latitude: -23.4593335, longitude: -46.5448166},
         {nome: "shopping maia", latitude: -23.4435468, longitude: -46.5428373},
         {nome: "nossa senhora da conceicao", latitude: -23.4702598, longitude: -46.5359583},
