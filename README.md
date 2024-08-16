@@ -3,7 +3,7 @@ O projeto GUARUPOINT é um desafio desenvolvido por um grupo de estudantes do 1�
 Particularmente sobre o nosso projeto, o objetivo é solucionado com a tentativa de criação de um guia para turistas sobre os principais pontos da cidade.
 
 ### Acesso
-Aperte [aqui](https://fh-shadow.github.io/GUARUPOINT/HTML/index.html) para acessar o site.
+Aperte [aqui](https://flavioow.github.io/GUARUPOINT/HTML/index.html) para acessar o site.
 
 ## Integrantes
 - **Flávio Henrique:** Responsável pelo HTML, CSS e JS
